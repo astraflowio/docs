@@ -4,35 +4,59 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Open Source',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Apache-2.0 license for commercial and non-commerical use. Freedom to deploy, modify and contribute back.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Modular',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        A fully abstracted backend enables you choose your own persistence layer and queueing service.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Control',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Powerful flow control constructs including Decisions, Dynamic Fork-Joins and Subworkflows. Variables and templates are supported.
       </>
     ),
   },
+  {
+      title: 'Polyglot',
+      Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+      description: (
+        <>
+          Client libraries in multiple languages allows workers to be implemented in Java, Node JS, Python and C#.
+        </>
+      ),
+    },
+    {
+      title: 'Scalable',
+      Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+      description: (
+        <>
+          Distributed architecture for both orchestrator and workers scalable from a single workflow to millions of concurrent processes.
+        </>
+      ),
+    },
+    {
+          title: 'Conductor',
+          Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+          description: (
+            <>
+              Fully compatible with Conductor. Workflows and Tasks can be used with no changes.
+            </>
+          ),
+        },
 ];
 
 function Feature({Svg, title, description}) {
